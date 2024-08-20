@@ -15,12 +15,12 @@ export default defineConfig({
       external:['react', 'react-dom'],
       output:{
         globals:{
-          react:"React",
+          "react":"React",
           "react-dom":"ReactDom",
         },
       },
     },
-    sourcemap:true,
+    sourcemap:false,
     emptyOutDir:true,
   },
   plugins: [react(), dts()],

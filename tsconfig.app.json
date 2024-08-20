@@ -22,14 +22,20 @@
     "noUnusedLocals": false,
     "noUnusedParameters": false,
     "noFallthroughCasesInSwitch": false,
+    "emitDeclarationOnly": true,
     "declaration": true,
     "typeRoots": [
       "./dist/index.d.ts",
       "node_modules/@types"
     ],
+    "paths": {
+      "diver-widget/*": [
+        "./src/*"
+      ]
+    },
   },
   "include": [
-      "src",
-      "./index.ts"
-    ],
+    "src",
+    "index.ts"
+  ],
 }

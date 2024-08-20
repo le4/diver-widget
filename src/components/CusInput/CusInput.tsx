@@ -1,20 +1,22 @@
 import React,{ useState } from 'react'
-import './common.css'
-//@ts-ignore
-import reactLogo from '../assets/react.svg'
-
+import axios from 'axios';
 import { Button } from '@radix-ui/themes';
 
-import axios from 'axios';
+//@ts-ignore
+import reactLogo from '../../assets/react.svg'
+import '../../components/common.css'
+
 
 interface Args {
   extendStyle?: String;
   labelVal?: String;
 }
 
-export const InputComponent = (props: Args) => {
+const CusInput = (props: Args) => {
 
   const [time, setTime] = React.useState('');
+
+  console.log("Args",props);
 
   const btnClick = () => {
     console.log("btnClick==>")
@@ -40,3 +42,5 @@ export const InputComponent = (props: Args) => {
     </div>
   )
 }
+
+export default CusInput;
