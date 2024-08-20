@@ -1,5 +1,6 @@
 const { default: viteReact } = require("@vitejs/plugin-react");
 import react from '@vitejs/plugin-react-swc'
+
 const path = require("path");
 /**@type {import('vite').UserConfig} */
 module.exports = {
@@ -10,7 +11,7 @@ module.exports = {
 	},
 	resolve: {
 		alias: {
-			"diver-widget": path.resolve(__dirname, "../src"),
+			"diver-widget": path.resolve(__dirname, "../src/components/"),
 		},
 	},
 };

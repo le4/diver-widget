@@ -1,4 +1,2 @@
-declare const CusButton: (props: {
-    content: string;
-}) => import("react/jsx-runtime").JSX.Element;
+declare const CusButton: () => import("react/jsx-runtime").JSX.Element;
 export default CusButton;

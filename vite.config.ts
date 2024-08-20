@@ -7,7 +7,7 @@ import dts from 'vite-plugin-dts'
 export default defineConfig({
   build:{
     lib:{
-      entry:path.resolve(__dirname, 'index.ts'),
+      entry:path.resolve(__dirname, 'index.tsx'),
       name: 'diver-widget-sdk',
       fileName: (format) => `index.${format}.js`
     },

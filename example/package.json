@@ -10,9 +10,10 @@
   },
   "dependencies": {
     "@vitejs/plugin-react": "^4.3.1",
-    "diver-widget-sdk": "^1.0.4",
+    "diver-widget-sdk": "^1.0.6",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "vite-tsconfig-paths": "^5.0.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.9.0",

@@ -7,16 +7,11 @@ import reactLogo from '../../assets/react.svg'
 import '../../components/common.css'
 
 
-interface Args {
-  extendStyle?: String;
-  labelVal?: String;
-}
 
-const CusInput = (props: Args) => {
+
+const CusInput = () => {
 
   const [time, setTime] = React.useState('');
-
-  console.log("Args",props);
 
   const btnClick = () => {
     console.log("btnClick==>")

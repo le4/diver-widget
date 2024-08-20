@@ -3,9 +3,11 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
-import CusButton from './../../src/components/CusButton/CusButton';
-import CusInput from './../../src/components/CusInput/CusInput';
+// import CusButton from './../../src/components/CusButton/CusButton';
+import CusInput1 from './../../src/components/CusInput/CusInput';
 
+import { CusButton,CusInput } from 'diver-widget-sdk';
+import 'diver-widget-sdk/dist/style.css';
 
 function App() {
   const [count, setCount] = useState(0)
